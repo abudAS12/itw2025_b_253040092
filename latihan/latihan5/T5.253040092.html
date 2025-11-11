@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 5 Animasi Lightbox</title>
+    <link rel="stylesheet" href="T5.253040092.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="instagram"></div>
+      <h2>It's Me Haii</h2>
+    </div>
+
+    <div class="container">
+      <div class="header-profil">
+        <div class="foto-wrap">
+          <div class="ring">
+            <img src="/assets/img/1.jpeg" alt="Profil" class="foto-profil" />
+          </div>
+        </div>
+        <div class="info">
+          <h1 class="username">hll.arsyy11</h1>
+          <p class="nama">hilal arasy</p>
+          <div class="followers">
+            <div><strong>5</strong><span> kiriman</span></div>
+            <div><strong>100</strong><span> pengikut</span></div>
+            <div><strong>100</strong><span> diikuti</span></div>
+          </div>
+          <p class="bio">"what are you seeing here??...."</p>
+        </div>
+      </div>
+
+      <div class="sorotan-bar">
+        <div class="buttons">
+          <a class="btn" href="#">Diikuti ▾</a>
+          <a class="btn" href="#">Kirim pesan</a>
+          <a class="icon" href="#">⚙</a>
+        </div>
+        <div class="sorotan-list">
+          <a href="#volly_1" class="s-item"><img src="img/sorotan-volly.jpg" /><span>volly</span></a>
+          <a href="#gunung_1" class="s-item"><img src="img/sorotan-gunung.jpg" /><span>gunung</span></a>
+          <a href="#random_1" class="s-item"><img src="img/sorotan-random.jpg" /><span>random</span></a>
+        </div>
+
+        <div class="tabs">
+          <div class="tab-item active">Grid</div>
+          <div class="tab-item">Reels</div>
+          <div class="tab-item">Tag</div>
+        </div>
+      </div>
+
+      <div class="postingan">
+        <div class="galeri">
+          <a href="#post1" class="galeri-item"><img src="img/p1.jpeg" /></a>
+          <a href="#post2" class="galeri-item"><img src="img/p2.jpeg" /></a>
+          <a href="#post3" class="galeri-item"><img src="img/p3.jpeg" /></a>
+          <a href="#post4" class="galeri-item"><img src="/assets/img/4.jpeg" /></a>
+          <a href="#post5" class="galeri-item"><img src="img/p5.jpeg" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- pop up sorotan ketika di klik -->
+    <!-- VOLLY -->
+    <div id="volly_1" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#volly_2" class="nav right last" aria-label="next">&#10095;</a>
+        <a href="#random_1" class="nav left" aria-label="prev">&#10094;</a>
+
+        <div class="story-slide"><img src="img/v1.jpeg" /></div>
+        <div class="progress">
+          <span class="bar active"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="volly_2" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#volly_1" class="nav left">&#10094;</a>
+        <a href="#volly_3" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/v2.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="volly_3" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#volly_2" class="nav left">&#10094;</a>
+        <a href="#volly_4" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/v3.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="volly_4" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#volly_3" class="nav left">&#10094;</a>
+        <a href="#volly_5" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/v5.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="volly_5" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#volly_4" class="nav left">&#10094;</a>
+        <a href="#gunung_1" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/v5.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- GUNUNG -->
+    <div id="gunung_1" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#volly_5" class="nav left">&#10094;</a>
+        <a href="#gunung_2" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/g1.jpeg" /></div>
+        <div class="progress">
+          <span class="bar active"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="gunung_2" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#gunung_1" class="nav left">&#10094;</a>
+        <a href="#gunung_3" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/g2.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="gunung_3" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#gunung_2" class="nav left">&#10094;</a>
+        <a href="#random_1" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/g3.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- RANDOM -->
+    <div id="random_1" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#gunung_3" class="nav left">&#10094;</a>
+        <a href="#random_2" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/r1.jpeg" /></div>
+        <div class="progress">
+          <span class="bar active"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="random_2" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#random_1" class="nav left">&#10094;</a>
+        <a href="#random_3" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/r2.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="random_3" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#random_2" class="nav left">&#10094;</a>
+        <a href="#random_4" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/r3.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="random_4" class="overlay-story">
+      <a href="#" class="close">✕</a>
+      <div class="story-wrap">
+        <div class="story-header">
+          <img src="/assets/img/1.jpeg" alt="Avatar" class="story-avatar" />
+          <span class="story-username">hll.arsyy11</span>
+          <span class="story-time">1j</span>
+        </div>
+        <a href="#random_3" class="nav left">&#10094;</a>
+        <a href="#" class="nav right">&#10095;</a>
+        <div class="story-slide"><img src="img/r4.jpeg" /></div>
+        <div class="progress">
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar done"></span>
+          <span class="bar active"></span>
+        </div>
+        <div class="story-footer">
+          <input type="text" placeholder="Kirim pesan..." class="story-input" />
+          <a href="#" class="story-icon">❤️</a>
+          <a href="#" class="story-icon">📤</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- pop up postingan ketika di klik -->
+    <div id="post1" class="overlay-post">
+      <a href="#" class="close">✕</a>
+      <img src="img/p1.jpeg" />
+    </div>
+    <div id="post2" class="overlay-post">
+      <a href="#" class="close">✕</a>
+      <img src="img/p2.jpeg" />
+    </div>
+    <div id="post3" class="overlay-post">
+      <a href="#" class="close">✕</a>
+      <img src="img/p3.jpeg" />
+    </div>
+    <div id="post4" class="overlay-post">
+      <a href="#" class="close">✕</a>
+      <img src="/assets/img/4.jpeg" />
+    </div>
+    <div id="post5" class="overlay-post">
+      <a href="#" class="close">✕</a>
+      <img src="img/p5.jpeg" />
+    </div>
+  </body>
+
+</html>
